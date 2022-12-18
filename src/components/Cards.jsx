@@ -8,8 +8,8 @@ export default function Cards() {
         </div>
         <div className="cards__content">
           <span className="cards__number">01</span>
-          <h3 className="cards__title">title</h3>
-          <p className="cards__text">text</p>
+          <h3 className="cards__title">Reviving Retro PC</h3>
+          <p className="cards__text">What happens when old PCs are given modern upgrades?</p>
         </div>
       </div>
       <div className="cards__card-2">
@@ -18,8 +18,8 @@ export default function Cards() {
         </div>
         <div className="cards__content">
           <span className="cards__number">02</span>
-          <h3 className="cards__title">title</h3>
-          <p className="cards__text">text</p>
+          <h3 className="cards__title">Top 10 Laptops of 2022</h3>
+          <p className="cards__text">Our best picks for various needs and budgets.</p>
         </div>
       </div>
       <div className="cards__card-3">
@@ -28,8 +28,8 @@ export default function Cards() {
         </div>
         <div className="cards__content">
           <span className="cards__number">03</span>
-          <h3 className="cards__title">title</h3>
-          <p className="cards__text">text</p>
+          <h3 className="cards__title">The Growth of Gaming</h3>
+          <p className="cards__text">How the pandemic has sparked fresh opportunities.</p>
         </div>
       </div>
     </section>

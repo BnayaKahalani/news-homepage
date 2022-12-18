@@ -3,7 +3,10 @@
 @import "./setup/base";
 @import "./setup/typography";
 @import "./setup/mixin";
+@import "./setup/layout";
 
 //VIEWS
 
 //COMPONENTS
+
+@import "./components/header";

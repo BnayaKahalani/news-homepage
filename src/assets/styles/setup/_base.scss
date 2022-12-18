@@ -1,14 +1,58 @@
+// RESET
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+// BASE STYLES
 body {
   min-height: 100vh;
   font-family: 'Inter';
   font-weight: 400;
+  font-size: 15px;
+  background-color: $clr-off-white;
+  overflow-x: hidden;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  color: $clr-dark-blue;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p,
+a,
+li,
+span {
+  color: $clr-dark-grayish-blue;
+}
+
 
 img {
   width: 100%;

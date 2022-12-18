@@ -1,10 +1,11 @@
+import logo from "../assets/images/logo.svg"
 
 export default function Header() {
   return (
     <header>
       <div className="header-container">
         <div className="header-container__logo-container">
-          <span>W.</span>
+          <img src={logo} alt="" />
         </div>
         <nav>
           <a href="#" className="header-container__home">Home</a>
