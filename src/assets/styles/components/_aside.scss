@@ -1,0 +1,24 @@
+aside {
+  background-color: $clr-black;
+  padding: 15px 25px;
+
+  h2 {
+    color: $clr-soft-orange;
+    margin: 0;
+  }
+
+  h3 {
+    color: $clr-white;
+  }
+
+  p {
+    color: $clr-grayish-blue;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $clr-grayish-blue;
+  }
+
+  .aside__last-paragraph {
+    border-bottom: none;
+  }
+
+}

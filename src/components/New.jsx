@@ -16,7 +16,7 @@ export default function New() {
       </div>
       <div className="aside__content-3">
         <h3>Is VC Funding Drying up?</h3>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        <p className="aside__last-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
       </div>
 
     </aside>

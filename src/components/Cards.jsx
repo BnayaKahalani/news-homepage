@@ -1,10 +1,14 @@
+import retro from "../assets/images/image-retro-pcs.jpg"
+import laptop from "../assets/images/image-top-laptops.jpg"
+import gaming from "../assets/images/image-gaming-growth.jpg"
+
 
 export default function Cards() {
   return (
     <section className="cards">
       <div className="cards__card-1">
         <div className="cards_img-container">
-          <img src="" alt="" />
+          <img src={retro} alt="" />
         </div>
         <div className="cards__content">
           <span className="cards__number">01</span>
@@ -14,7 +18,7 @@ export default function Cards() {
       </div>
       <div className="cards__card-2">
         <div className="cards_img-container">
-          <img src="" alt="" />
+          <img src={laptop} alt="" />
         </div>
         <div className="cards__content">
           <span className="cards__number">02</span>
@@ -24,7 +28,7 @@ export default function Cards() {
       </div>
       <div className="cards__card-3">
         <div className="cards_img-container">
-          <img src="" alt="" />
+          <img src={gaming} alt="" />
         </div>
         <div className="cards__content">
           <span className="cards__number">03</span>

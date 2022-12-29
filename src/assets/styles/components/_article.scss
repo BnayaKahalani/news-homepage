@@ -1,0 +1,30 @@
+article {
+  margin-bottom: 25px;
+
+  h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+    margin: 15px 0;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  button {
+    all: unset;
+    font-family: "Inter";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $clr-off-white;
+    letter-spacing: 3px;
+    padding: 0.7em 1.52em;
+    background-color: $clr-soft-red;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: $clr-black;
+    }
+
+  }
+}
