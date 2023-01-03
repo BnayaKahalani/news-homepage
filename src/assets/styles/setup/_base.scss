@@ -27,33 +27,44 @@ body {
   overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: $clr-dark-blue;
-}
+main {
 
-h1 {
-  font-size: 1.6em;
-}
+  @media (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 32.2% 32.2% 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+  }
 
-h2 {
-  font-size: 1.4em;
-}
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $clr-dark-blue;
+  }
 
-h3 {
-  font-size: 1.2em;
-}
+  h1 {
+    font-size: 1.6em;
+  }
 
-p,
-a,
-li,
-span {
-  color: $clr-dark-grayish-blue;
-}
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p,
+  a,
+  li,
+  span {
+    color: $clr-dark-grayish-blue;
+  }
 
 
-img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
+
 }

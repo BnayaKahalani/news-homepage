@@ -1,16 +1,14 @@
 import './assets/styles/index.scss'
 import Header from './components/Header'
-import Article from './components/Article'
-import New from './components/New'
 import Cards from './components/Cards'
+import Main from './components/Main'
 
 function App() {
 
   return (
     <div className="app">
       <Header />
-      <Article />
-      <New />
+      <Main/>
       <Cards />
     </div>
   )

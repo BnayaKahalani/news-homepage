@@ -1,10 +1,27 @@
-aside {
+.aside {
+  display: flex;
+  flex-direction: column;
   background-color: $clr-black;
   padding: 15px 25px;
+  line-height: 2em;
+
+  @media (min-width: 900px) {
+    justify-content: space-around;
+    grid-column: -1;
+    grid-row: 1 / span 2;
+    flex-grow: 1;
+    height: auto;
+    padding: 25px 25px;
+    font-size: 18px;
+  }
 
   h2 {
     color: $clr-soft-orange;
     margin: 0;
+
+    @media (min-width: 900px) {
+      font-size: 2em;
+    }
   }
 
   h3 {
@@ -15,6 +32,7 @@ aside {
     color: $clr-grayish-blue;
     padding-bottom: 15px;
     border-bottom: 1px solid $clr-grayish-blue;
+
   }
 
   .aside__last-paragraph {

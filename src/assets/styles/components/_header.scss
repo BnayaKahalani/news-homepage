@@ -6,7 +6,9 @@ header {
     align-items: center;
     padding: 15px 0;
 
-
+    @media (min-width:600px) {
+      height: 100px;
+    }
 
     &__logo-container {
       width: 30px;
