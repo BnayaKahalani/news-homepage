@@ -23,7 +23,7 @@ body {
   font-family: 'Inter';
   font-weight: 400;
   font-size: 15px;
-  background-color: ;
+  background-color: $clr-off-white;
   overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ main {
   h2,
   h3,
   h4 {
-    color: ;
+    color: $clr-dark-blue;
   }
 
   h1 {
@@ -59,7 +59,7 @@ main {
   a,
   li,
   span {
-    color: ;
+    color: $clr-dark-grayish-blue;
   }
 
 
